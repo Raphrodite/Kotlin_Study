@@ -11,9 +11,10 @@ Kotlin已正式成为Android官方支持开发语言
 比Java更简洁  
 源代码开源  
 
-![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin1.png)
-
 # 一. Hello Kotlin  
+
+![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin1.png)  
+
 1. main函数不需要在class中就可以运行  
 2. fun代表一个函数 后面跟的是函数名称，参数列表和返回值类型  
 3. 函数中参数的写法 参数名称：参数类型（与java相反）  
@@ -75,6 +76,8 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   声明延迟初始化属性的特点：  
   使用lazy{}高阶函数，不能用于类型推断。且该函数在变量的数据类型后面，用by链接。  
   必须是只读变量，即用val声明的变量。
+  
+  
   
   已知值的属性可以使用 const 修饰符标记为 编译期常量。需要满足如下几种条件: (类似 java 中的 constanUtil 中的 常量值)  
   位于顶层或者是 object 的一个成员  
