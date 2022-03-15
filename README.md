@@ -35,8 +35,8 @@
   
   const val SUBSYSTEM_KEY: String = "key"
   
-  $是Kotlin字符串拼接的语法
-  var name: String = "123"
+  $是Kotlin字符串拼接的语法  
+  var name: String = "123"  
   println("Hello world $name")   // $变量  
   
   
