@@ -39,12 +39,12 @@
   var name: String = "123"  
   println("Hello world $name")   // $变量 输出 Hello world 123  
   
-  自定义访问器  类似于javaBean  
+  自定义访问器  类似于javaBean  在属性中重写getter  
   ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin2.png)  
-  在属性中重写getter  
   
-  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin3.png)  
   在Kotlin中的val修饰的变量不能说是不可变的，而只能说仅仅具有可读权限。  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin3.png)  
+  
   
   
   
