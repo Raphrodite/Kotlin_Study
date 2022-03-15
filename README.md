@@ -94,7 +94,7 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   在object修饰的类中声明，在kotlin中称为对象声明，它相当于Java中一种形式的单例类  
   在伴生对象中声明  
   
-  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin7.png)   
   
   已知值的属性可以使用 const 修饰符标记为 编译期常量。需要满足如下几种条件: (类似 java 中的 constanUtil 中的 常量值)  
   位于顶层或者是 object 的一个成员  
