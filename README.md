@@ -77,7 +77,9 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   使用lazy{}高阶函数，不能用于类型推断。且该函数在变量的数据类型后面，用by链接。  
   必须是只读变量，即用val声明的变量。
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin6.png)  
   
+# 三. 常量   
   
   已知值的属性可以使用 const 修饰符标记为 编译期常量。需要满足如下几种条件: (类似 java 中的 constanUtil 中的 常量值)  
   位于顶层或者是 object 的一个成员  
