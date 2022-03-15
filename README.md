@@ -69,7 +69,12 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   不能声明于基本数据类型变量。例：Int、Float、Double等，注意：String类型是可以的。  
   声明后，在使用该变量前必须赋值，不然会抛出UninitializedPropertyAccessException异常。  
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin5.png)  
   
+  延迟初始化：指当程序在第一次使用到这个变量（属性）的时候在初始化。  
+  声明延迟初始化属性的特点：  
+  使用lazy{}高阶函数，不能用于类型推断。且该函数在变量的数据类型后面，用by链接。  
+  必须是只读变量，即用val声明的变量。
   
   已知值的属性可以使用 const 修饰符标记为 编译期常量。需要满足如下几种条件: (类似 java 中的 constanUtil 中的 常量值)  
   位于顶层或者是 object 的一个成员  
