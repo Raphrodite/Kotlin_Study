@@ -37,7 +37,9 @@
   
   $是Kotlin字符串拼接的语法  
   var name: String = "123"  
-  println("Hello world $name")   // $变量  
+  println("Hello world $name")   // $变量 输出 Hello world 123  
+  
+  自定义访问器  类似于javaBean  
   
   
   
