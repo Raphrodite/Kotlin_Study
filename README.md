@@ -28,10 +28,18 @@
   2、不可变变量的定义: val 关键字， 不能进行二次赋值，类似Java中的final类型  
   val <常量名> : <常量类型> = <初始值>  
   
-  已知值的属性可以使用 const 修饰符标记为 编译期常量。需要满足如下几种条件 (类似 java 中的 constanUtil 中的 常量值)  
+  已知值的属性可以使用 const 修饰符标记为 编译期常量。需要满足如下几种条件: (类似 java 中的 constanUtil 中的 常量值)  
   位于顶层或者是 object 的一个成员  
   用 String 或原生类型 值初始化  
   没有自定义 getter  
+  
+  const val SUBSYSTEM_KEY: String = "key"
+  
+  $是Kotlin字符串拼接的语法
+  var name: String = "123"
+  println("Hello world $name")   // $变量  
+  
+  
   
   
   
