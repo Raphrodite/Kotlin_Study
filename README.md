@@ -1,6 +1,16 @@
 # Kotlin_Study
 记录Kotlin学习过程
 
+# Kotlin介绍  
+Kotlin 是一个基于JVM 的新的编程语言，由 JetBrains 开发  
+Kotlin可以编译成Java字节码，也可以编译成JavaScript，方便在没有JVM的设备上运行  
+Kotlin已正式成为Android官方支持开发语言  
+
+相对于java的优势:  
+比Java更安全，能够静态检测常见的陷阱。如：引用空指针  
+比Java更简洁  
+源代码开源  
+
 ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin1.png)
 
 # 一. Hello Kotlin  
