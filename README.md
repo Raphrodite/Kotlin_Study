@@ -143,6 +143,18 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
  
   在Kotlin中，存在数字的装箱，但是不存在拆箱。因为Kotlin是没有基本数据类型的，Kotlin是万般皆对象的原则。故不存在和`Java`中的类似`int`是数据类型，`Integer`是整型的引用类型。 
   
+  在Kotlin中要实现装箱操作。首先要了解可空引用。即类似Int?(只限数值类型)这样的。  
+  
+  val numValue: Int = 123  
+  //装箱的过程，其实装箱之后其值是没有变化的  
+  val numValueBox: Int? = numValue  
+  println("装箱后： numValueBox => $numValueBox")  
+  输出结果为：  
+  装箱后： numValueBox => 123
+  
+  两个数值的比较:  
+  判断两个数值是否相等（==）,判断两个数值在内存中的地址是否相等（===）,其实上面的装箱操作之后其内存中的地址根据其数据类型的数值范围而定。  
+  
   
  
   
