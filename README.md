@@ -229,7 +229,17 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   包含转义字符的字符串 转义包括（\t、\n等）,不包含转义字符串的也同属此类型  
   包含任意字符的字符串 由三重引号（""" …. """）表示  
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin13.png)   
   
+  可以使用trimMargin()函数删除前导空格 ，默认使用符号(|)作为距前缀，当然也可以使用其他字符。例：右尖括号（>）、左尖括号（<）等。  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin14.png)  
+  
+  字符串模板：  使用字符串模板的符号为（$）。在$符号后面加上变量名或大括号中的表达式  
+  
+ ## 4.5 数组型（Array）  
+ 
+ 
   
   
    
