@@ -244,10 +244,31 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   arrayOfNulls()  
   工厂函数（Array()）  
   
-  arrayOf()  创建一个数组，参数是一个可变参数的泛型对象  
+  1. arrayOf()  创建一个数组，参数是一个可变参数的泛型对象  
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin15.png)  
   
+  2. arrayOfNulls()  用于创建一个指定数据类型且可以为空元素的给定元素个数的数组  
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin16.png)  
+  
+  3. 工厂函数  
+  使用一个工厂函数Array()，它使用数组大小和返回给定其索引的每个数组元素的初始值的函数。  
+  Array() => 第一个参数表示数组元素的个数，第二个参数则为使用其元素下标组成的表达式  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin17.png)   
+  
+  4. 原始类型数组  
+  Kotlin还有专门的类来表示原始类型的数组，没有装箱开销，它们分别是： 
+  ByteArray => 表示字节型数组  
+  ShortArray => 表示短整型数组  
+  IntArray => 表示整型数组  
+  LongArray => 表示长整型数组  
+  BooleanArray => 表示布尔型数组  
+  CharArray => 表示字符型数组  
+  FloatArray => 表示浮点型数组  
+  DoubleArray => 表示双精度浮点型数组  
+  Kotlin中不支持字符串类型这种原始类型数组，可以看源码Arrays.kt这个类中并没有字符串数组的声明。而源码中StringArray.kt这个类并不是声明字符串型数组的。    
   
    
    
