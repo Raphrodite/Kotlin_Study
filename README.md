@@ -114,6 +114,8 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
  
  ## 4.1 数值类型  
  
+ ### 4.1.1  
+ 
    Kotlin中的数字的内置类型（接近与Java），其关键字为：  
    Byte=> 字节 => 8位  
    Short => 短整型 => 16位  
@@ -124,17 +126,25 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
    
    ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin10.png)  
    
- ## 4.2 进制数  
+ ### 4.1.2 进制数  
  
    二进制数  var h = 0b00001011   h => 11   
   八进制数（Kotlin不支持）  
   十进制数    var k = 123    k => 123   
   十六进制数   var g = 0x0F    g => 15   
   
- ## 4.3 数字类型字面常量的下划线  
+ ### 4.1.3 数字类型字面常量的下划线  
  
   作用：分割数字进行分组，使数字常量更易读  
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin11.png)  
+  
+ ### 4.1.4 装箱与拆箱  
+ 
+  在Kotlin中，存在数字的装箱，但是不存在拆箱。因为Kotlin是没有基本数据类型的，Kotlin是万般皆对象的原则。故不存在和`Java`中的类似`int`是数据类型，`Integer`是整型的引用类型。 
+  
+  
+ 
   
    
    
