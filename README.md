@@ -239,7 +239,14 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   
  ## 4.5 数组型（Array）  
  
- 
+  Kotlin中数组由Array<T>表示，创建数组的3个函数：  
+  arrayOf()  
+  arrayOfNulls()  
+  工厂函数（Array()）  
+  
+  arrayOf()  创建一个数组，参数是一个可变参数的泛型对象  
+  
+  
   
   
    
