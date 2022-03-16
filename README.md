@@ -122,6 +122,8 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
    Float => 浮点型 => 32位  
    Double => 双精度浮点型 => 64位  
    
+   ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin10.png)  
+   
    
  
  
