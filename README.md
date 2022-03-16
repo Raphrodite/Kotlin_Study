@@ -124,6 +124,19 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
    
    ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin10.png)  
    
+ ## 4.2 进制数  
+ 
+   二进制数  var h = 0b00001011   h => 11   
+  八进制数（Kotlin不支持）  
+  十进制数    var k = 123    k => 123   
+  十六进制数   var g = 0x0F    g => 15   
+  
+ ## 4.3 数字类型字面常量的下划线  
+ 
+  作用：分割数字进行分组，使数字常量更易读  
+  
+  
+   
    
  
  
