@@ -325,7 +325,31 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   for循环提供一个迭代器用来遍历任何东西。  
   for循环数组被编译为一个基于索引的循环，它不会创建一个迭代器对象  
   
-  遍历字符串  
+  1. 遍历字符串  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin24.png)  
+  
+  2. 遍历数组  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin25.png)  
+  
+  3. 使用数组的indices属性遍历  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin26.png)  
+  
+  4. 使用数组的withIndex()方法遍历  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin27.png)  
+  
+  5. 迭代器遍历  
+  其一般和while循环一起使用  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin28.png)  
+  
+  6. foreach遍历  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin29.png)  
+  
   
   
   
