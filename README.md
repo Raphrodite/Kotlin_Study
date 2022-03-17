@@ -300,4 +300,32 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   关键字：until  
   范围：until[n,m) => 即大于等于n,小于m  
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin20.png)  
+  
+  递减：  
+  关键字：downTo  
+  范围：downTo[n,m] => 即小于等于n,大于等于m ,n &gt; m  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin21.png)  
+  
+  符号（' .. '） 表示递增的循环的另外一种操作  
+  使用符号( '..').  
+  范围：..[n,m]=> 即大于等于n，小于等于m  
+  和until的区别，一是简便性。二是范围的不同。  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin22.png)  
+  
+  设置步长：  
+  关键字：step  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin23.png)   
+  
+ # 6.2.2 迭代  
+  
+  for循环提供一个迭代器用来遍历任何东西。  
+  for循环数组被编译为一个基于索引的循环，它不会创建一个迭代器对象  
+  
+  遍历字符串  
+  
+  
   
