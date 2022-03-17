@@ -350,6 +350,11 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   
   ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin29.png)  
   
+ # 6.3 when语句  
+  
+  在Kotlin中已经废除掉了Java中的switch语句。而新增了when(exp){}语句。  
+  when语句不仅可以替代掉switch语句，而且比switch语句更加强大  
+  
   
   
   
