@@ -110,11 +110,11 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
 
  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin9.png)  
  
- # 四. 数据类型  
+ # 五. 数据类型  
  
- ## 4.1 数值类型  
+ ## 5.1 数值类型  
  
- ### 4.1.1  
+ ### 5.1.1  
  
    Kotlin中的数字的内置类型（接近与Java），其关键字为：  
    Byte=> 字节 => 8位  
@@ -126,20 +126,20 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
    
    ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin10.png)  
    
- ### 4.1.2 进制数  
+ ### 5.1.2 进制数  
  
    二进制数  var h = 0b00001011   h => 11   
   八进制数（Kotlin不支持）  
   十进制数    var k = 123    k => 123   
   十六进制数   var g = 0x0F    g => 15   
   
- ### 4.1.3 数字类型字面常量的下划线  
+ ### 5.1.3 数字类型字面常量的下划线  
  
   作用：分割数字进行分组，使数字常量更易读  
   
   ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin11.png)  
   
- ### 4.1.4 装箱与拆箱  
+ ### 5.1.4 装箱与拆箱  
  
   在Kotlin中，存在数字的装箱，但是不存在拆箱。因为Kotlin是没有基本数据类型的，Kotlin是万般皆对象的原则。故不存在和`Java`中的类似`int`是数据类型，`Integer`是整型的引用类型。 
   
@@ -157,7 +157,7 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   
   ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin12.png)   
   
-  ### 4.1.5 转换  
+  ### 5.1.5 转换  
   
    显式转换  
    较小的类型不会被隐式转换为更大的类型，故而系统提供了显式转换。提供的显式转换方法如下：  
@@ -179,7 +179,7 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
    输出结果为：    
    42  
    
-  ### 4.1.6 位运算符
+  ### 5.1.6 位运算符
    
    Kotlin中对于按位操作，和Java是有很大的差别的。Kotlin中没有特殊的字符，但是只能命名为可以以中缀形式调用的函数，下列是按位操作的完整列表(仅适用于整形（Int）和长整形（Long）)：  
    shl(bits) => 有符号向左移 (类似Java的&lt;&lt;)  
@@ -190,7 +190,7 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
    xor(bits) => 位运算符 xor (同Java中的按位异或)  
    inv() => 位运算符 按位取反 (同Java中的按位取反)  
    
- ## 4.2 布尔类型 
+ ## 5.2 布尔类型 
  
   Boolean关键字表示布尔类型，并且其值有true和false
   逻辑操作符（与Java相同）:  
@@ -198,7 +198,7 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   ' && ' => 逻辑与（并且）  
   ' ! ' => 逻辑非（取反）  
   
- ## 4.3 字符型
+ ## 5.3 字符型
  
   Char为表示字符型，字符变量用单引号（‘ ’）表示。并且不能直接视为数字，不过可以显式转换为数字。  
   
@@ -219,7 +219,7 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   \$ => 表示美元符号，如果不转义在kotlin中就表示变量的引用了  
   其他的任何字符请使用Unicode转义序列语法。例：'\uFF00'  
   
- ## 4.4 字符串类型（String）  
+ ## 5.4 字符串类型（String）  
  
   String表示字符串类型。其是不可变的。所以字符串的元素可以通过索引操作的字符：str[index]来访问。可以使用for循环迭代字符串：  
   其中str[index]中的str为要目标字符串，index为索引  
@@ -237,7 +237,7 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   
   字符串模板：  使用字符串模板的符号为（$）。在$符号后面加上变量名或大括号中的表达式  
   
- ## 4.5 数组型（Array）  
+ ## 5.5 数组型（Array）  
  
   Kotlin中数组由Array<T>表示，创建数组的3个函数：  
   arrayOf()  
@@ -268,22 +268,9 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   CharArray => 表示字符型数组  
   FloatArray => 表示浮点型数组  
   DoubleArray => 表示双精度浮点型数组  
-  Kotlin中不支持字符串类型这种原始类型数组，可以看源码Arrays.kt这个类中并没有字符串数组的声明。而源码中StringArray.kt这个类并不是声明字符串型数组的。    
+  Kotlin中不支持字符串类型这种原始类型数组，可以看源码Arrays.kt这个类中并没有字符串数组的声明。而源码中StringArray.kt这个类并不是声明字符串型数组的。  
   
-   
-   
- 
+ # 六. 控制语句  
   
-   
-   
- 
- 
- 
-  
-  
- 
-  
-  
-  
-  
+  # 6.1 if语句  
   
