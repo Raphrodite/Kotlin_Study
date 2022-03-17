@@ -280,3 +280,10 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   在Kotlin中其实是不存在三元运算符(condition ? then : else)这种操作的。  
   那是因为if语句的特性(if表达式会返回一个值)故而不需要三元运算符。  
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin18.png)  
+  
+  Kotlin中的if可以作为一个表达式并返回一个值。  
+  
+  作为一个块结构，并且最后一句表达式为块的值  
+  
+  
