@@ -392,6 +392,35 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   
   其同Java中的while循环一样。  
   
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin36.png)   
+  
+  # 6.5 do…while语句  
+  
+  其同Java中的do...while循环一样。  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin37.png)  
+  
+  do{...}while最少执行一次,while(exp)可能一次也不执行，这点也是和Java相同的  
+  
+  # 6.6 跳转语句（return、break、continue） 
+  
+  1. return语句  
+  默认情况下，从最近的封闭函数或匿名函数返回。  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin38.png)  
+  
+  2. break语句  
+  作用：终止最近的闭合循环。  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin39.png)  
+  
+  3. continue语句
+  前进到最近的封闭循环的下一个步骤(迭代)。  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin40.png)  
+  
+  
+  
   
   
   
