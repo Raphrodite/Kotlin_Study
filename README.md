@@ -355,6 +355,48 @@ kotlin变量的声明方式与Java中声明变量有很大的区别，而且必�
   在Kotlin中已经废除掉了Java中的switch语句。而新增了when(exp){}语句。  
   when语句不仅可以替代掉switch语句，而且比switch语句更加强大  
   
+  1. when语句实现switch语句功能  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin30.png)  
+  
+  2. 和逗号结合使用，相当于switch语句中的不使用break跳转语句  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin31.png)  
+  
+  3. 条件可以使用任意表达式，不仅局限于常量  
+  相当于if表达式的用法。  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin32.png)  
+  
+  4. 检查值是否存在于集合或数组中  
+  (in) 在  
+  (!in) 不在  
+  只适用于数值类型
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin33.png)  
+  
+  其中，符号( .. )表示至的意思。如例子中的0 .. 10就表示0至10或者0到10。  
+  
+  5. 检查值是否为指定类型的值  
+  是 (is)  
+  不是 (!is)  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin34.png)   
+  
+  6. 不使用表达式的when语句  
+  表示为最简单的布尔表达式  
+  
+  ![images](https://github.com/Raphrodite/Kotlin_Study/blob/main/images/kotlin35.png)   
+  
+  # 6.4 while语句  
+  
+  其同Java中的while循环一样。  
+  
+  
+  
+  
+  
+  
   
   
   
